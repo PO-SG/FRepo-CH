@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Proyecto-CesarGonzalez</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="../multimedia/images/logo_test.png" alt="logo de prueba"></a>
+            <div>
+                <ul class="nav__list list">
+                    <li><a class="nav__link" href="../index.html">Inicio</a></li>
+                    <li><a class="nav__link" href="../Pages/about.html">About</a></li>
+                    <li><a class="nav__link" href="../Pages/servicios.html">Servicios</a></li>
+                    <li><a class="nav__link" href="../Pages/galeria.html">Galeria</a></li>
+                    <li><a class="nav__link" href="../Pages/contacto.html">Contacto</a></li>
+                    <li><a class="nav__link" href="#bottom__page">Fondo de pagina</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section><!--CONTACTO-->
+            <h2>
+                CONTACTO
+            </h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolores quia dolor non nesciunt distinctio quam debitis voluptate accusantium dolorum, modi quisquam voluptatibus deleniti ut. Suscipit repudiandae culpa unde doloribus?</p>
+            <div>
+                <form action="">
+                        <legend>Envienos su consulta</legend>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div>
+                            <label for="correo">Correo</label>
+                            <input type="email" name="correo" id="correo">
+                        </div>
+                        <div>
+                            <label for="servicio">Servicio:</label>
+                            <select name="servicio" id="servicio">
+                                <option value="1">Servicio1</option>
+                                <option value="2">Servicio2</option>
+                                <option value="3">Servicio3</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="aclaraciones">Aclaraciones:</label>
+                            <textarea name="alacraciones" id="aclaraciones" cols="30" rows="10"></textarea>
+                        </div>
+                        <legend>Acepta los terminos y condiciones</legend>
+                        <div>
+                            <input type="checkbox" name="acepta" id="acepta" value="1"/>
+                        </div>
+                        <div>
+                            <button type="submit" value="Enviar">Enviar</button>
+                            <button type="reset" value="reset">Reset</button>
+                        </div>
+                </form>
+            </div>
+            <div class="redes">
+                <h4 class="redes__tittle">REDES</h4>
+                <ul class="list">
+                    <li><a href=""><img src="multimedia/images/social__facebook.png" alt="Facebook red social" class="social"></a></li>
+                    <li><a href=""><img src="multimedia/images/social__instagram.png" alt="Instagram red social" class="social"></a></li>
+                    <li><a href=""><img src="multimedia/images/social__twitter.png" alt="Twitter red social" class="social"></a></li>
+                    <li><a href=""><img src="multimedia/images/social__whatsapp.png" alt="Whatsapp red social" class="social"></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer id="bottom__page">
+        <ul class="list">
+            <li><a class="footer__link" href="">Inicio</a></li>
+            <li><a class="footer__link" href="">About</a></li>
+            <li><a class="footer__link" href="">Servicios</a></li>
+            <li><a class="footer__link" href="">Galeria</a></li>
+            <li><a class="footer__link" href="">Contacto</a></li>
+            <li><a class="footer__link" href="">Instagram</a></li>
+            <li><a class="footer__link" href="">Whatsapp</a></li>
+            <li><a class="footer__link" href="">Facebook</a></li>
+        </ul>
+        <p>Derechos reservados 2023 ©.</p>
+    </footer>
+</body>
+</html>

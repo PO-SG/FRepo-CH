@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background-color: #F5E2EE;
+    border-bottom: 2px solid #6B5965;
+    
+}
+
+.list{
+    list-style: none;
+}
+
+.nav__list{
+    text-align: right;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #6B5965;
+}
+
+h1{
+   font-weight: 400;
+   font-size: 3.5rem;
+   color: #6B5965;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 20px;
+    color: #6B5965;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.inicio__paragraph{
+    text-align: center;
+}
+
+.services__card{
+    margin: 10px;
+    border: 2px solid #52424D;
+    width: 600px;
+    height: 200px;
+}
+
+.services__card--title{
+    margin: 10px;
+    color: #6B5965;
+}
+
+.line{
+    border: solid #52424D 1px;
+    
+}
+
+.services__card--line{
+    width: 90%;
+    margin: 10px;
+}
+
+.galery__clients{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.galery__clients ul{
+    list-style: none;
+}
+
+.galery__clients--links{  
+    color: #52424D;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.redes{
+    margin: 20px;
+    text-align: end;
+}
+
+.redes__tittle{
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
+    color: #52424D;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    border-top: 2px solid #F5E2EE;
+    background-color: #52424D;
+}
+
+footer ul{
+    margin: 20px;
+}
+
+.footer__link{
+    color: #F5E2EE;
+    text-decoration: none;
+    font-weight: 100;
+    font-style: italic;
+}
+
+footer p{
+    text-align: end;
+    color: #F5E2EE;
+}
